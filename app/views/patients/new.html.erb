@@ -1,0 +1,33 @@
+
+
+<h1>SIGN UP</h1>
+
+<%= form_with model: @sign_up do |form| %>
+  <div>
+    <%= form.label :FirstName %><br>
+    <%= form.text_field :first_name %><br>
+  </div>
+
+
+  <div>
+    <%= form.label :LastName %><br>
+    <%= form.text_field :last_name %><br>
+  </div>
+
+   <div>
+    <%= form.label :email %><br>
+    <%= form.text_field :mail %><br>
+  </div>
+
+
+  <div>
+    <%= form.label :Password %><br>
+    <%= form.text_area :password %><br>
+  </div>
+
+  <div>
+    <%= form.label :LOGIN %><br>
+    <%= form.submit %>
+  </div>
+<% end %>
+
