@@ -22,7 +22,7 @@ PostMailer.post_created.deliver_now
       redirect_to :action => 'show'
 
 else
-flash[:notice] = 'UnSuccessfull'
+flash[:notice] = 'UnSuccessfully'
 end
 end
 
